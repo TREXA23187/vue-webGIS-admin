@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chore" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:perf" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:refactor" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tag" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f13c56d7-81ec-4358-90fe-f8e6147ad7a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/assets/js/us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/icons/svg/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Map.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-admin-template/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/README-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-element-admin/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue-admin-template" />
+  </component>
+  <component name="ProjectId" id="1qgv2c51AscMMnpqtynxfHHGZ2n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-admin-template/src/assets/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstorm\WebstormProjects\vue-admin\vue-admin-template\src\assets\js" />
+      <recent name="D:\webstorm\WebstormProjects\vue-admin\vue-admin-template\src\utils" />
+      <recent name="D:\webstorm\WebstormProjects\vue-admin\vue-admin-template\src\views\map\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f13c56d7-81ec-4358-90fe-f8e6147ad7a3" name="Default Changelist" comment="" />
+      <created>1617513848212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617513848212</updated>
+      <workItem from="1617513850410" duration="1231000" />
+      <workItem from="1617516643484" duration="6318000" />
+      <workItem from="1617532828367" duration="1800000" />
+      <workItem from="1617537340305" duration="1461000" />
+      <workItem from="1617539792087" duration="2702000" />
+      <workItem from="1617587195049" duration="8725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="886" y="440" key="#ESLint" timestamp="1617537748372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="886" y="440" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1617537748372" />
+    <state x="460" y="321" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617595646226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="321" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617595646226" />
+    <state width="1362" height="219" key="GridCell.Tab.0.bottom" timestamp="1617587795180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617587795180" />
+    <state width="1362" height="219" key="GridCell.Tab.0.center" timestamp="1617587795179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617587795179" />
+    <state width="1362" height="219" key="GridCell.Tab.0.left" timestamp="1617587795179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617587795179" />
+    <state width="1362" height="219" key="GridCell.Tab.0.right" timestamp="1617587795180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617587795180" />
+  </component>
+</project>
