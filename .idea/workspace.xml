@@ -6,71 +6,25 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:chore" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:perf" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:refactor" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:tag" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13c56d7-81ec-4358-90fe-f8e6147ad7a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/assets/js/us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/icons/svg/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Chart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Detail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/components/Map.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/src/views/map/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-admin-template/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/README-zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-admin-template/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-admin-template/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/store/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/utils/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-element-admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controller/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/views/fail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/views/succ.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/users-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/users/UsersAdd.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/users/UsersList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controller/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/users/index.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue-admin-template" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qgv2c51AscMMnpqtynxfHHGZ2n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -109,6 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -132,6 +88,9 @@
       <workItem from="1617537340305" duration="1461000" />
       <workItem from="1617539792087" duration="2702000" />
       <workItem from="1617587195049" duration="8725000" />
+      <workItem from="1617600254882" duration="3416000" />
+      <workItem from="1617608252140" duration="5999000" />
+      <workItem from="1617621951893" duration="8743000" />
     </task>
     <servers />
   </component>
@@ -152,6 +111,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vue-admin-template" />
+      <path value="$PROJECT_DIR$/vue-element-admin" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="886" y="440" key="#ESLint" timestamp="1617537748372">
@@ -178,5 +141,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617587795180" />
+    <state x="361" y="145" key="SettingsEditor" timestamp="1617600346376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617600346376" />
   </component>
 </project>

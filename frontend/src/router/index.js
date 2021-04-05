@@ -166,7 +166,7 @@ export const constantRoutes = [
       {
         path:'list',
         name:'Users',
-        component:()=>import('@/views/users/index'),
+        component:()=>import('@/views/users/UsersList'),
         meta: {title: 'users-admin',icon:'users-admin'}
       }
     ]
