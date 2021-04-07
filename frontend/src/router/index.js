@@ -172,6 +172,18 @@ export const constantRoutes = [
     ]
   },
   {
+    path:'/states',
+    component:Layout,
+    children: [
+      {
+        path:'list',
+        name:'States',
+        component:()=>import('@/views/states/StatesList'),
+        meta: {title: 'states-admin',icon:'usa'}
+      }
+    ]
+  },
+  {
     path:'/map',
     component:Layout,
     children: [

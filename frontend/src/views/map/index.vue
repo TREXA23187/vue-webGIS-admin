@@ -19,7 +19,7 @@
       <input type="text" placeholder="search..." name="state_name" id="state_input" v-model="select">
       <button id="showAll">show all</button>
       <button id="removeAll">remove all</button>
-      <!--      <Controller></Controller>-->
+<!--            <Controller></Controller>-->
     </div>
   </div>
 
@@ -31,6 +31,7 @@
 import Detail from "./components/Detail";
 import Map from './components/Map'
 import Chart from "./components/Chart";
+import Controller from "./components/Controller";
 
 export default {
   name: "mapView",
@@ -94,7 +95,7 @@ export default {
     Map,
     Detail,
     Chart,
-
+    Controller,
   },
   methods:{
     countStates(){
@@ -109,30 +110,33 @@ export default {
 <style lang="less">
 #map-container {
   position: relative;
-  width: 1050px;
-  height: 600px;
+  width:100%;
+  height:800px;
+  //width: 1050px;
+  //height: 600px;
   background: purple;
   #control{
     position: absolute;
     height: 100px;
+    width: 500px;
     left: 0;
     bottom: 0;
     background: blue;
   }
 }
 
-#map {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 800px;
-  height: 500px;
-}
-#control{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
+//#map {
+//  position: absolute;
+//  left: 0;
+//  top: 0;
+//  width: 800px;
+//  height: 500px;
+//}
+//#control{
+//  position: absolute;
+//  left: 0;
+//  bottom: 0;
+//}
 .info {
   padding: 6px 8px;
   font: 14px/16px Arial, Helvetica, sans-serif;

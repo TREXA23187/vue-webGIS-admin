@@ -5,31 +5,34 @@ const signup = (req, res, next) => {
 
     const {username,password} = req.body
     const insert = `insert into user_info values(uuid_generate_v4(),'${username}',${password})`
+    const find = `select * from user_info where username='${username}'`
 
     pool.connect(function (isErr, client, done) {
-        if (isErr) {
-            console.log('connect query:' + isErr.message);
-            res.render('fail',{
-                data:JSON.stringify({
-                    message:'sign up failed'
-                })
-            })
-            return;
-        }
-        client.query(insert, [], function (isErr, rst) {
-            done()
-            if (isErr) {
-                console.log('query error:' + isErr.message);
-            } else {
-                console.log('query success, data is: ');
-                // console.log(rst.rows[0].row_to_json)
-                // console.log(rst)
-                // res.send('signup secc')
-                res.render('succ',{
+        client.query(find,[],(err,rst)=>{
+            if(rst.rowCount){
+                res.render('fail',{
                     data:JSON.stringify({
-                        username,
-                        password
+                        message:'username existed'
                     })
+                })
+            }
+            else {
+                client.query(insert, [], function (isErr, rst) {
+                    done()
+                    if (isErr) {
+                        console.log('query error:' + isErr.message);
+                        res.render('fail',{
+                            data:JSON.stringify({
+                                message:'sign up failed'
+                            })
+                        })
+                    } else {
+                        res.render('succ',{
+                            data:JSON.stringify({
+                                username
+                            })
+                        })
+                    }
                 })
             }
         })
@@ -71,9 +74,6 @@ const deleteUser = (req,res,next)=>{
             if (isErr) {
                 console.log('query error:' + isErr.message);
             } else {
-                console.log('query success, data is: ');
-                // console.log(rst.rows[0].row_to_json)
-                // console.log(rst)
                 res.send(`${id} deleted`)
             }
         })

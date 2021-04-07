@@ -6,8 +6,10 @@ const auth = (req, res, next) => {
         let result = verify(token)
         next()
     } catch (e) {
-        res.send({
-            message: 'please login'
+        res.render('fail',{
+            data:JSON.stringify({
+                message:'please login'
+            })
         })
     }
 }

@@ -16,8 +16,8 @@ export default {
   position: absolute;
   right: 0;
   top: 0;
-  width: 250px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   background: pink;
 }
 #details{

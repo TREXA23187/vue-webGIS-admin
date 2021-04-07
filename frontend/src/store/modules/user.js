@@ -33,12 +33,19 @@ const actions = {
     const { username, password } = userInfo
     return new Promise((resolve, reject) => {
       login({ username: username.trim(), password: password }).then(response => {
+        // console.log(response.data)
         const { data,headers } = response
-        const token = headers['x-access-token']
-        commit('SET_TOKEN', token)
-        commit('SET_NAME',data.username)
-        setToken(token)
-        resolve()
+        if (data.ret){
+          const token = headers['x-access-token']
+          commit('SET_TOKEN', token)
+          commit('SET_NAME',data.data.username)
+          setToken(token)
+          resolve()
+        }
+        else{
+          alert('Incorrect username or password！')
+          reject('wrong!')
+        }
       }).catch(error => {
         reject(error)
       })

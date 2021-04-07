@@ -17,8 +17,10 @@ export default {
   position: absolute;
   left: 0;
   top: 0;
-  width: 800px;
-  height: 500px;
+  width: 1100px;
+  height: 650px;
+  //width: 800px;
+  //height: 500px;
 }
 .info {
   padding: 6px 8px;
