@@ -114,14 +114,14 @@ export default {
   height:800px;
   //width: 1050px;
   //height: 600px;
-  background: purple;
+  //background: purple;
   #control{
     position: absolute;
     height: 100px;
     width: 500px;
     left: 0;
     bottom: 0;
-    background: blue;
+    //background: blue;
   }
 }
 

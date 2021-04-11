@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {search,signin,api,isAuth} = require('../controller/index')
+const {search,signin,api,isAuth,covid} = require('../controller/index')
 const {auth} = require('../middlewares/auth')
 
 router.get('/usa', search)
@@ -12,6 +12,7 @@ router.get('/usa', search)
 router.post('/signin',signin)
 router.post('/user/login',signin)
 router.get('/isAuth', isAuth)
+router.get('/covid',covid)
 
 
 module.exports = router

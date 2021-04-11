@@ -1,7 +1,6 @@
 <template>
   <div id="detail-container">
-    <button id="btn_details">details</button>
-    <div id="details">123465</div>
+    <div id="details">details</div>
   </div>
 </template>
 
@@ -18,12 +17,14 @@ export default {
   top: 0;
   width: 600px;
   height: 400px;
-  background: pink;
+  /*background: pink;*/
 }
 #details{
   position: absolute;
   width: 100%;
   height: 100%;
-  background: gray;
+  font-size: 20px;
+  text-align: center;
+  /*background: gray;*/
 }
 </style>

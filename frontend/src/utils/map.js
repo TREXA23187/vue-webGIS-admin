@@ -1,6 +1,7 @@
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 import {us} from '@/assets/js/us'
+import {covid} from '@/assets/js/covid'
 import axios from "axios";
 import Vue from 'vue'
 
@@ -20,7 +21,6 @@ const createMap = () => {
     const btn_removeAll = document.querySelector('#removeAll')
     const state_input = document.querySelector('#state_input')
     //details
-    const btn_details = document.querySelector('#btn_details')
     const details = document.querySelector('#details')
 
     const info = L.control();
@@ -65,6 +65,12 @@ const createMap = () => {
     function setDetailsView(e,details_container,flag=false){
         const props = e.target.feature.properties
         const OTHERS = props.EMPLOYED - props.DRVALONE - props.CARPOOL - props.PUBTRANS
+        // for(let i = 0;i<covid.length;i++){
+        //   if(covid[i].area === props.STATE_NAME){
+        //     confirm = covid[i].confirm
+        //     break
+        //   }
+        // }
         details_container.innerHTML =`
             <h1>state_name : ${props.STATE_NAME}</h1>
             <h1>sub_region : ${props.SUB_REGION}</h1>
@@ -219,31 +225,6 @@ const createMap = () => {
 
         details.innerHTML = ''
         Vue.prototype.$utils.chart.myChart && Vue.prototype.$utils.chart.myChart.dispose()
-    })
-
-    btn_details.addEventListener('click', () => {
-        const state_name = state_input.value
-        axios({
-            method: 'get',
-            url: `/api/usa?details=${state_name}`,
-        })
-            .then(function (response) {
-                // document.querySelector('#details').innerHTML = response.data
-                const response_arr = response.data.split(',')
-                // console.log(response_arr)
-                document.querySelector('#details').innerHTML =
-                    `
-                        <h1>state_name : ${response_arr[0]}</h1>
-                        <h1>sub_region : ${response_arr[1]}</h1>
-                        <h1>state_abbr : ${response_arr[2]}</h1>
-                        <h1>land_km : ${response_arr[3]}</h1>
-                        <h1>water_km : ${response_arr[4]}</h1>
-
-                    `
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
     })
 
     return map

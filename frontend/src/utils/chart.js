@@ -24,7 +24,7 @@ const createChart = (state_name,drvalone,carpool,pubtrans,others) => {
             {
                 name: 'methods to work',
                 type: 'pie',
-                radius: '50%',
+                radius: '70%',
                 bottom:50,
                 label:false,
                 data: [

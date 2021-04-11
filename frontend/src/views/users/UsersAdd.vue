@@ -71,6 +71,8 @@ export default {
               this.form.password = ''
             } else {
               this.$message.error(result.data.data.message)
+              this.form.username = ''
+              this.form.password = ''
             }
           })
         }else{

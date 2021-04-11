@@ -1,4 +1,6 @@
 const {pool} = require('../utils/db')
+const axios = require('axios')
+const cheerio = require('cheerio')
 
 
 const {sign, verify} = require('../utils/tools')
@@ -107,7 +109,7 @@ const api = (req, res, next) => {
 const isAuth = async (req, res, next) => {
     let token = req.get('X-Access-Token')
     // let token = req.query['X-Access-Token']
-    console.log(token)
+    // console.log(token)
     try {
         let result = verify(token)
         res.send({
@@ -121,5 +123,31 @@ const isAuth = async (req, res, next) => {
     }
 }
 
+const covid = async (req, res, next) => {
+    axios({
+        url: 'http://m.sinovision.net/newpneumonia.php',
+        method: 'GET'
+    }).then((resp) => {
+        const $ = cheerio.load(resp.data)
+        const blocks = $(".main-block")
+        const repos = []
+        // console.log(table.find(".VirusTable_1-1-300_AcDK7v").text())
+        for (let i = 0; i < 53; i++) {
+            const block = blocks.eq(i)
+            const repo = {
+                area: block.find(".area").text().trim(),
+                confirm: block.find(".confirm").eq(0).text().trim()
+            }
+            repos.push(repo)
+        }
+        // console.log(repos)
+        // for(let i of repos){
+        //     console.log(i.area)
+        // }
+        res.set('Cache-Control', 'max-age=100000')
+        res.send(repos)
+    })
 
-module.exports = {search, signin, api, isAuth}
+}
+
+module.exports = {search, signin, api, isAuth, covid}

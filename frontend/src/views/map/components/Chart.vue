@@ -18,6 +18,6 @@ export default {
   bottom: 0;
   width: 600px;
   height: 400px;
-  background: yellow;
+  /*background: yellow;*/
 }
 </style>
