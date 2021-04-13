@@ -2,7 +2,7 @@
   <div class="user-admin-container">
     <el-button @click.native="handleAddUser" style="margin-bottom: 10px" type="primary" icon="el-icon-plus">Add</el-button>
     <el-table
-      :data="renderData.filter(data => !search || data.name.toLowerCase().includes(search.toLowerCase()))"
+      :data="search?tableData.filter(data=>data.name.toLowerCase().includes(search.toLowerCase())):renderData"
       style="width: 100%"
       border
       :header-cell-style="{backgroundColor:'#eee'}"

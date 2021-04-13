@@ -11,24 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13c56d7-81ec-4358-90fe-f8e6147ad7a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/views/covid.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/covid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/js/covid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/icons/svg/covid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/covid/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controller/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/map/components/Chart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/map/components/Chart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/map/components/Detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/map/components/Detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/map/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/map/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/users/UsersAdd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/users/UsersAdd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/states/StatesList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/states/StatesList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/users/UsersList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/users/UsersList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +91,8 @@
       <workItem from="1618046356059" duration="2895000" />
       <workItem from="1618106574650" duration="52000" />
       <workItem from="1618108546204" duration="7476000" />
-      <workItem from="1618142214130" duration="6131000" />
+      <workItem from="1618142214130" duration="6250000" />
+      <workItem from="1618294128418" duration="674000" />
     </task>
     <servers />
   </component>

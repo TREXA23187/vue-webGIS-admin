@@ -24,7 +24,7 @@ export default {
   width: 100%;
   height: 100%;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   /*background: gray;*/
 }
 </style>
